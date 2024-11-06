@@ -1,0 +1,23 @@
+Exercise 12: Boggle Game
+Authors: Talia Dym, Shira Parker
+Description :
+When the user starts the program a window pops up with an image and a 
+start button that the user can press in order to start the game.
+We designed the boggle game screen in the colours: 
+yellow and blue to match the colours of the original boggle game.
+Each turn, the user can select letters from the board by pressing the letter buttons on the screen 
+and then pressing the enter button (signaling the end of the turn).
+As the user presses the letters, a string of the chosen letters appears on the bottom of the screen 
+The program checks the letter path the user has selcted. 
+If the path is correct it shows an according message, updates the game score displayed on the screen 
+and adds the correct word to a list of found words displayed on the screen.
+If the path is incorrect, an according message is displayed.
+The game also has an option for the user to ask for a hint.
+If the user chooses to ask for a hint by pressing the hint button, 1 point is removed  
+from the total score and a word from the from the board appears on the screen (in the hint frame). 
+We used the function max_score_paths from ex12_utils to help get the hint.
+If the user has less than 1 point, they cannot get a hint
+and if they press the hint button, an according message is displayed 
+The game ends when the time runs out. 
+Then a message box is displayed giving the user the option to choose whether to play again or not.
+We hope you enjoy our game!
